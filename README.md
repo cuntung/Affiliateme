@@ -18,7 +18,15 @@ Affiliateme is a comprehensive platform designed to help affiliate marketers tra
 
 ## 🚀 Project Status
 
-This project is currently in the **planning and analysis phase**. We're defining the architecture, features, and roadmap for development.
+**MVP Implementation Complete!** ✅
+
+The project now includes a fully functional MVP with:
+- ✅ Backend API (Node.js/Express with PostgreSQL)
+- ✅ Frontend application (Next.js with Tailwind CSS)
+- ✅ User authentication system
+- ✅ Affiliate link management
+- ✅ Click tracking and analytics
+- ✅ Dashboard with charts
 
 📄 **[View Complete Project Analysis](./PROJECT_ANALYSIS.md)** - Detailed analysis including:
 - Technical architecture recommendations
@@ -27,6 +35,58 @@ This project is currently in the **planning and analysis phase**. We're defining
 - Security considerations
 - Development timeline
 - Cost estimations
+
+## 🏃 Quick Start
+
+### Prerequisites
+- Node.js 18+
+- PostgreSQL 14+
+- npm or yarn
+
+### Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/cuntung/Affiliateme.git
+cd Affiliateme
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Configure Backend**
+```bash
+cd packages/backend
+cp .env.example .env
+# Edit .env with your database credentials
+```
+
+4. **Set up Database**
+```bash
+createdb affiliateme_dev
+npm run migrate
+```
+
+5. **Configure Frontend**
+```bash
+cd ../frontend
+cp .env.local.example .env.local
+```
+
+6. **Start Development Servers**
+```bash
+cd ../..
+npm run dev
+```
+
+- Backend API: http://localhost:3000
+- Frontend: http://localhost:3001
+
+See individual package READMEs for more details:
+- [Backend README](./packages/backend/README.md)
+- [Frontend README](./packages/frontend/README.md)
 
 ## 🛠️ Technology Stack (Proposed)
 
