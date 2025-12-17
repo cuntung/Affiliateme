@@ -38,10 +38,21 @@ This project is currently in the **planning and analysis phase**. We're defining
 
 ## 📚 Documentation
 
-- [Project Analysis](./PROJECT_ANALYSIS.md) - Comprehensive project analysis and planning document
-- API Documentation (Coming soon)
-- User Guide (Coming soon)
-- Developer Setup Guide (Coming soon)
+### Core Documents
+- **[Project Analysis](./PROJECT_ANALYSIS.md)** - Comprehensive analysis with architecture, features, and costs
+- **[Technical Specifications](./TECHNICAL_SPECS.md)** - API specs, database schema, security requirements
+- **[Project Structure](./PROJECT_STRUCTURE.md)** - Recommended file/folder organization
+- **[Summary](./SUMMARY.md)** - Executive summary and key insights from the analysis
+
+### Developer Resources
+- **[Getting Started](./GETTING_STARTED.md)** - Complete setup guide with troubleshooting
+- **[Contributing Guidelines](./CONTRIBUTING.md)** - How to contribute to the project
+- **[Roadmap](./ROADMAP.md)** - Detailed development timeline and milestones
+
+### Coming Soon
+- API Documentation
+- User Guide
+- Deployment Guide
 
 ## 🗺️ Roadmap
 
@@ -78,7 +89,7 @@ This project is currently in early development. Contribution guidelines will be 
 
 ## 📝 License
 
-License information to be determined.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## 📧 Contact
 
